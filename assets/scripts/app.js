@@ -1,6 +1,12 @@
-let currentResult = 0;
+const defaultResult = 0;
+let currentResult = defaultResult;
 
-currentResult = (currentResult + 10) * 2/1;
+function add(num1, num2) {
+    const result = num1 + num2;
+    return result;
+}
+
+currentResult = add(1,2);
 
 let calculationDescription = '(' + currentResult + ' hi)';
 
